@@ -1,0 +1,12 @@
+/*
+ * Wirewheel form base styles.
+ */
+.wirewheel-form-wrapper details.hidden {
+	display: none;
+}
+.wirewheel-form-wrapper .details-wrapper .wirewheel-col-6.hidden {
+	display: none;
+}
+.wirewheel-form-wrapper fieldset {
+	border: none;
+}

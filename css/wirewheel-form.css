@@ -1,0 +1,216 @@
+/*
+ * Wirewheel form Styling.
+ */
+.wirewheel-form-wrapper {
+	font-family: Arial, sans-serif;
+}
+.wirewheel-form-wrapper .header-wrapper {
+	color: #000;
+	font-weight: 400;
+	font-size: 18px;
+	padding: 5px 0;
+	line-height: 1.5;
+}
+.wirewheel-form-wrapper .header-wrapper h3 {
+	margin: 16px 0 8px;
+	font-size: 24px;
+	font-weight: normal;
+	font-family: inherit;
+}
+.wirewheel-form-wrapper details {
+	border: none;
+	font-size: 0;
+	box-shadow: 0 1px 4px #d7e1e8;
+	margin: 0;
+	margin-top: 32px;
+}
+.wirewheel-form-wrapper fieldset {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+.wirewheel-form-wrapper div.details-wrapper {
+	font-size: initial;
+	padding: 24px;
+	line-height: 30px;
+}
+.wirewheel-form-wrapper .request-types {
+	width: 49%;
+	display: inline-block;
+}
+.wirewheel-form-wrapper .request-types.wirewheel-odd {
+	margin-left: 1%;
+}
+.wirewheel-form-wrapper .request-types.wirewheel-even {
+	margin-right: 1%;
+}
+.wirewheel-form-wrapper .request-types .form-type-checkbox,
+.wirewheel-form-wrapper .request-types .form-type-boolean {
+	color: #3c444f;
+	border-radius: 4px;
+	box-shadow: 0 6px 10px rgb(0 0 0 / 8%), 0 0 6px rgb(0 0 0 / 5%);
+	transition: transform .3s cubic-bezier(.155,1.105,.295,1.12),box-shadow .3s;
+	cursor: pointer;
+	background: #fff;
+	border: 1px solid #dcdddf;
+	box-shadow: 0 1px 1px rgb(22 31 42 / 10%), 0 2px 2px rgb(22 31 42 / 8%), 0 1px 3px rgb(22 31 42 / 10%);
+	border-radius: 6px;
+	overflow: hidden;
+	font-weight: bold;
+	height: 170px;
+	position: relative;
+	border-bottom: 5px solid white;
+}
+.wirewheel-form-wrapper .request-types .form-type-checkbox input,
+.wirewheel-form-wrapper .request-types .form-type-boolean input {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	height: 20px;
+	width: 20px;
+}
+.wirewheel-form-wrapper .request-types .form-type-checkbox:hover,
+.wirewheel-form-wrapper .request-types .form-type-boolean:hover {
+	box-shadow: 0 10px 20px rgb(0 0 0 / 12%), 0 4px 8px rgb(0 0 0 / 6%);
+	border-bottom: 5px solid;
+}
+.wirewheel-form-wrapper .request-types .form-type-checkbox label,
+.wirewheel-form-wrapper .request-types .form-type-boolean label {
+	font-size: 24px;
+	font-weight: bold;
+	display: block;
+	padding: 28px;
+	padding-left: 60px;
+	padding-bottom: 0;
+	margin: 0;
+}
+.wirewheel-form-wrapper .request-types .form-type-checkbox label input,
+.wirewheel-form-wrapper .request-types .form-type-boolean label input {
+	margin-top: 8px;
+}
+.wirewheel-form-wrapper .request-types .form-type-checkbox .description,
+.wirewheel-form-wrapper .request-types .form-type-boolean .description {
+	font-weight: normal;
+	font-size: 16px;
+	margin-bottom: 0;
+	padding-top: 0;
+	line-height: 1.5;
+}
+.wirewheel-form-wrapper .wirewheel-col-6 .form-item .description {
+	font-size: 14px;
+	line-height: 2;
+}
+.wirewheel-form-wrapper .details-wrapper .wirewheel-col-6 {
+	width: 48%;
+	display: inline-block;
+	vertical-align: middle;
+	height: 100px;
+}
+.wirewheel-form-wrapper .details-wrapper .wirewheel-col-6:nth-child(2n) {
+	margin-left: 2%;
+}
+.wirewheel-form-wrapper .details-wrapper .wirewheel-col-6:nth-child(2n+1) {
+	margin-right: 2%;
+}
+.wirewheel-form-wrapper .details-wrapper .wirewheel-col-6 input,
+.wirewheel-form-wrapper .details-wrapper .wirewheel-col-6 select {
+	height: 40px;
+	width: 100%;
+	border: 1px solid #ccc;
+}
+.wirewheel-form-wrapper .details-wrapper .wirewheel-col-6 input.form-radio,
+.wirewheel-form-wrapper .details-wrapper .wirewheel-col-6 input.form-checkbox {
+	width: 15px;
+	height: 15px;
+}
+.wirewheel-form-wrapper .details-wrapper .wirewheel-col-6 .fieldset__legend--composite {
+	background: transparent;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.wirewheel-form-wrapper .details-wrapper .wirewheel-col-6 .fieldset__legend--composite .fieldset__label {
+	color: inherit;
+	font-weight: normal;
+	padding: 0;
+}
+.wirewheel-form-wrapper .details-wrapper .wirewheel-col-6 .fieldset__wrapper {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+.wirewheel-form-wrapper .details-wrapper .wirewheel-col-6 .fieldset__wrapper .form-boolean-group {
+	display: flex;
+}
+.wirewheel-form-wrapper .details-wrapper .wirewheel-col-6 .fieldset__wrapper .form-boolean-group .form-type-boolean,
+.wirewheel-form-wrapper .details-wrapper .wirewheel-col-6 .fieldset-wrapper .form-radios .form-item,
+.wirewheel-form-wrapper .details-wrapper .wirewheel-col-6 .fieldset-wrapper .form-checkboxes .form-item {
+	flex-grow: 1;
+	margin: 0;
+}
+.wirewheel-form-wrapper .details-wrapper .wirewheel-col-6 .form-radios,
+.wirewheel-form-wrapper .details-wrapper .wirewheel-col-6 .form-checkboxes {
+	display: flex;
+	flex-wrap: wrap;
+}
+.wirewheel-form-wrapper .details-wrapper .wirewheel-col-6 .form-radios+div
+.wirewheel-form-wrapper .details-wrapper .wirewheel-col-6 .form-checkboxes+div {
+	flex-grow: 1;
+}
+.wirewheel-form-wrapper .wirewheel-submit {
+	text-align: center;
+}
+.wirewheel-form-wrapper .wirewheel-submit .form-actions {
+	display: block;
+	padding-top: 0;
+	padding-bottom: 20px;
+}
+.wirewheel-form-wrapper .wirewheel-submit .form-actions input {
+	width: 50%;
+	display: inline-block;
+	height: 40px;
+	background: #337ab7;
+	color: white;
+	cursor: pointer;
+}
+.wirewheel-form-wrapper .wirewheel-submit .form-actions input:hover {
+	background-color: #286090;
+	border-color: #204d74;
+}
+.wirewheel-form-wrapper .recaptcha {
+	margin-bottom: 16px;
+}
+.wirewheel-form-wrapper .recaptcha div {
+	margin: auto;
+}
+
+@media only screen and (max-width: 767px) {
+	.wirewheel-form-wrapper .request-types {
+		width: 100%;
+	}
+
+	.wirewheel-form-wrapper .request-types .form-type-checkbox,
+	.wirewheel-form-wrapper .request-types .form-type-boolean {
+		height: 150px;
+	}
+
+	.wirewheel-form-wrapper .request-types.wirewheel-odd,
+	.wirewheel-form-wrapper .request-types.wirewheel-even {
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	.wirewheel-form-wrapper div.details-wrapper {
+		width: auto;
+	}
+
+	.wirewheel-form-wrapper .details-wrapper .wirewheel-col-6 {
+		width: 100%;
+		height: auto;
+		display: block;
+	}
+
+	.wirewheel-form-wrapper .details-wrapper .wirewheel-col-6:nth-child(2n),
+	.wirewheel-form-wrapper .details-wrapper .wirewheel-col-6:nth-child(2n+1) {
+		margin: 4% 0;
+	}
+}
